@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 function Content() {
+  const handleClick = () => {
+    console.log('You clikced it');
+  };
+
   return (
-    <div>Content</div>
-  )
+    <div>
+      Content
+      <button onClick={handleClick}> Click it </button>
+    </div>
+  );
 }
 
-export default Content
+export default Content;

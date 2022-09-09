@@ -2,8 +2,10 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div>Groceries List</div>
-  )
-}
+    <div>
+      <h1>Groceries List</h1>
+    </div>
+  );
+};
 
 export default Header;
