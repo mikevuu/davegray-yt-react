@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaTrashAlt } from 'react-icons/fa';
-import ItemList from './ItemList';
+import React from 'react'
+
+import ItemList from './ItemList'
 function Content({ items, handleCheck, handleDelete }) {
   return (
     <main>
@@ -14,7 +14,7 @@ function Content({ items, handleCheck, handleDelete }) {
         <p> Your list is empty</p>
       )}
     </main>
-  );
+  )
 }
 
-export default Content;
+export default Content
